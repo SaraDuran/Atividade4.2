@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas;
+package br.edu.ifsp.dmo.project;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.view.adapter;
+package br.edu.ifsp.dmo.project.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import br.edu.ifsp.dmo.tarefas.R;
-import br.edu.ifsp.dmo.tarefas.model.entities.Article;
-import br.edu.ifsp.dmo.tarefas.mvp.MainMVP;
-import br.edu.ifsp.dmo.tarefas.view.RecyclerViewItemClickListener;
+import br.edu.ifsp.dmo.project.R;
+import br.edu.ifsp.dmo.project.model.entities.Article;
+import br.edu.ifsp.dmo.project.mvp.MainMVP;
+import br.edu.ifsp.dmo.project.view.RecyclerViewItemClickListener;
 
 public class ItemPocketRecyclerAdapter extends RecyclerView.Adapter<ItemPocketRecyclerAdapter.ViewHolder>{
 

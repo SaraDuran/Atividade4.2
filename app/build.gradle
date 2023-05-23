@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'br.edu.ifsp.dmo.tarefas'
+    namespace 'br.edu.ifsp.dmo.project'
     compileSdk 33
 
     defaultConfig {
-        applicationId "br.edu.ifsp.dmo.tarefas"
+        applicationId "br.edu.ifsp.dmo.project"
         minSdk 28
         targetSdk 33
         versionCode 1

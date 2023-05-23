@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.view;
+package br.edu.ifsp.dmo.project.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -8,11 +8,11 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import br.edu.ifsp.dmo.tarefas.R;
-import br.edu.ifsp.dmo.tarefas.mvp.MainMVP;
-import br.edu.ifsp.dmo.tarefas.presenter.MainPresenter;
+import br.edu.ifsp.dmo.project.R;
+import br.edu.ifsp.dmo.project.mvp.MainMVP;
+import br.edu.ifsp.dmo.project.presenter.MainPresenter;
 
-public class MainActivity extends AppCompatActivity implements MainMVP.View {
+public class ArticleMainActivity extends AppCompatActivity implements MainMVP.View {
 
     private MainMVP.Presenter presenter;
     private FloatingActionButton actionButton;

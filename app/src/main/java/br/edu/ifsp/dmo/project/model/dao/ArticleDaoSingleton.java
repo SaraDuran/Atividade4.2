@@ -1,10 +1,10 @@
-package br.edu.ifsp.dmo.tarefas.model.dao;
+package br.edu.ifsp.dmo.project.model.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.ifsp.dmo.tarefas.model.entities.Article;
-import br.edu.ifsp.dmo.tarefas.model.entities.Tag;
+import br.edu.ifsp.dmo.project.model.entities.Article;
+import br.edu.ifsp.dmo.project.model.entities.Tag;
 
 public class ArticleDaoSingleton implements IArticleDao{
     private static ArticleDaoSingleton instance = null;
@@ -21,17 +21,17 @@ public class ArticleDaoSingleton implements IArticleDao{
     }
 
     @Override
-    public void create(Article tarefa) {
-        if(tarefa != null){
-            dataset.add(tarefa);
+    public void create(Article article) {
+        if(article != null){
+            dataset.add(article);
         }
     }
 
 
     @Override
-    public void favorite(Article tarefa) {
-        if(tarefa != null){
-          Article tAux = dataset.stream().filter(t -> t.getTitle().equals(tarefa.getTitle())).findFirst().get();
+    public void favorite(Article article) {
+        if(article != null){
+          Article tAux = dataset.stream().filter(t -> t.getTitle().equals(article.getTitle())).findFirst().get();
             dataset.remove(tAux);
             dataset.add(0, tAux);
         }

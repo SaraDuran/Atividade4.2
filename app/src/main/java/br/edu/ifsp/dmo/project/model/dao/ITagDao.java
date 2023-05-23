@@ -1,8 +1,8 @@
-package br.edu.ifsp.dmo.tarefas.model.dao;
+package br.edu.ifsp.dmo.project.model.dao;
 
 import java.util.List;
 
-import br.edu.ifsp.dmo.tarefas.model.entities.Tag;
+import br.edu.ifsp.dmo.project.model.entities.Tag;
 
 public interface ITagDao{
 

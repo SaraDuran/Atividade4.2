@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.view.adapter;
+package br.edu.ifsp.dmo.project.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,9 +13,9 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import br.edu.ifsp.dmo.tarefas.R;
-import br.edu.ifsp.dmo.tarefas.model.entities.Article;
-import br.edu.ifsp.dmo.tarefas.mvp.MainMVP;
+import br.edu.ifsp.dmo.project.R;
+import br.edu.ifsp.dmo.project.model.entities.Article;
+import br.edu.ifsp.dmo.project.mvp.MainMVP;
 
 public class ItemPocketAdapter extends ArrayAdapter {
 

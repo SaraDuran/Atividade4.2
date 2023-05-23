@@ -1,18 +1,18 @@
-package br.edu.ifsp.dmo.tarefas.presenter;
+package br.edu.ifsp.dmo.project.presenter;
 
 import android.content.Intent;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import br.edu.ifsp.dmo.tarefas.model.dao.ArticleDaoSingleton;
-import br.edu.ifsp.dmo.tarefas.model.dao.IArticleDao;
-import br.edu.ifsp.dmo.tarefas.model.entities.Article;
-import br.edu.ifsp.dmo.tarefas.mvp.MainMVP;
-import br.edu.ifsp.dmo.tarefas.utils.Constant;
-import br.edu.ifsp.dmo.tarefas.view.ArticleDetailsActivity;
-import br.edu.ifsp.dmo.tarefas.view.RecyclerViewItemClickListener;
-import br.edu.ifsp.dmo.tarefas.view.adapter.ItemPocketRecyclerAdapter;
+import br.edu.ifsp.dmo.project.model.dao.ArticleDaoSingleton;
+import br.edu.ifsp.dmo.project.model.dao.IArticleDao;
+import br.edu.ifsp.dmo.project.model.entities.Article;
+import br.edu.ifsp.dmo.project.mvp.MainMVP;
+import br.edu.ifsp.dmo.project.utils.Constant;
+import br.edu.ifsp.dmo.project.view.ArticleDetailsActivity;
+import br.edu.ifsp.dmo.project.view.RecyclerViewItemClickListener;
+import br.edu.ifsp.dmo.project.view.adapter.ItemPocketRecyclerAdapter;
 
 public class MainPresenter implements MainMVP.Presenter {
 

@@ -1,12 +1,12 @@
-package br.edu.ifsp.dmo.tarefas.presenter;
+package br.edu.ifsp.dmo.project.presenter;
 
 import android.os.Bundle;
 
-import br.edu.ifsp.dmo.tarefas.model.dao.ArticleDaoSingleton;
-import br.edu.ifsp.dmo.tarefas.model.dao.IArticleDao;
-import br.edu.ifsp.dmo.tarefas.model.entities.Article;
-import br.edu.ifsp.dmo.tarefas.mvp.ArticleDetailsMVP;
-import br.edu.ifsp.dmo.tarefas.utils.Constant;
+import br.edu.ifsp.dmo.project.model.dao.ArticleDaoSingleton;
+import br.edu.ifsp.dmo.project.model.dao.IArticleDao;
+import br.edu.ifsp.dmo.project.model.entities.Article;
+import br.edu.ifsp.dmo.project.mvp.ArticleDetailsMVP;
+import br.edu.ifsp.dmo.project.utils.Constant;
 
 public class ArticleDetailsPresenter implements ArticleDetailsMVP.Presenter {
 

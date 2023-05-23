@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.mvp;
+package br.edu.ifsp.dmo.project.mvp;
 
 import android.os.Bundle;
 
@@ -15,10 +15,11 @@ public interface ArticleDetailsMVP {
     }
 
     interface Presenter{
-        void deatach();
 
         void verifyUpdate();
 
         void saveArticle(String title, String url);
+
+        void deatach();
     }
 }

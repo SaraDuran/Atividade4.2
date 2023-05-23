@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.view;
+package br.edu.ifsp.dmo.project.view;
 
 public interface RecyclerViewItemClickListener {
 

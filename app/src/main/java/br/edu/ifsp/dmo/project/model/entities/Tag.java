@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.model.entities;
+package br.edu.ifsp.dmo.project.model.entities;
 
 public class Tag {
     private String tagName;

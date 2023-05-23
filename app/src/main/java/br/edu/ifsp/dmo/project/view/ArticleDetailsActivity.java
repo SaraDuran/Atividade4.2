@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas.view;
+package br.edu.ifsp.dmo.project.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,12 +8,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
-import br.edu.ifsp.dmo.tarefas.R;
-import br.edu.ifsp.dmo.tarefas.mvp.ArticleDetailsMVP;
-import br.edu.ifsp.dmo.tarefas.presenter.ArticleDetailsPresenter;
+import br.edu.ifsp.dmo.project.R;
+import br.edu.ifsp.dmo.project.mvp.ArticleDetailsMVP;
+import br.edu.ifsp.dmo.project.presenter.ArticleDetailsPresenter;
 
 public class ArticleDetailsActivity extends AppCompatActivity
         implements ArticleDetailsMVP.View, View.OnClickListener {

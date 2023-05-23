@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo.tarefas;
+package br.edu.ifsp.dmo.project;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("br.edu.ifsp.dmo.tarefas", appContext.getPackageName());
+        assertEquals("br.edu.ifsp.dmo.project", appContext.getPackageName());
     }
 }
